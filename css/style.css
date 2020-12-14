@@ -75,24 +75,16 @@ body, input, button {
     background-color: rgb(15, 107, 199);
 }
 
-#main-nav .sign-in-link {
+.sign-in-link {
     color: white;
 }
-
-
 
 #main-nav .sign-in-link:visited {
     color: white;
 }
 
-
-
-
-
-
-
 /* Main Content*/
-
+/* Google Logo*/
 #page-content {
     position: relative;    
     flex-wrap: wrap;
@@ -123,8 +115,7 @@ body, input, button {
     color: #4169E1;
 }
 
-
-
+/* Google Search Box Styling */
 .box {
     background-color: white;
     border: 0.25px solid #D3D3D3;
@@ -150,6 +141,7 @@ body, input, button {
     padding-left: 10px;
 }
 
+
 .box a i {
     font-size: 17px;     
     background:-moz-linear-gradient(top, #6495ED 90%, #FF0000 10%,); 
@@ -162,8 +154,6 @@ body, input, button {
     padding-right: 8px;
 }
 
-
-
 .box > input {
     flex: 1;
     height: 25px;
@@ -173,27 +163,14 @@ body, input, button {
     padding-left: 10px;
 }
 
-
 #page-content img {
     padding: 0px 0px 28px 0px;
 }
-
-
 
 .search {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.search-items {
-    box-sizing: border-box;
-    width: 584px;
-}
-
-.search-items {
-    padding: 10px;
 }
 
 .search-bar {
@@ -254,7 +231,6 @@ footer {
 
 #secondary-nav a:hover {
     text-decoration: underline;
-
 }
 
 #secondary-one {
